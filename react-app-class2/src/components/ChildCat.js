@@ -27,7 +27,7 @@ class ChildCat extends React.Component{
                <button>Go Somewhere</button> */}
 
                 <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={this.props.imgURL}/>
+                <Card.Img variant="top" src={this.props.imgURL} onClick={this.incrementNumOfPets}/>
                 <Card.Body>
                     <Card.Title> {this.props.title}</Card.Title>
                     <Card.Text>
